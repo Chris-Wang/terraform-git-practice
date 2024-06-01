@@ -33,7 +33,7 @@ variable "function_timeout" {
 
 variable "memory_size" {
   description = "Amount of memory in MB your Lambda Function can use at runtime"
-  default     = 128
+  default     = 512
 }
 
 variable "function_runtime" {
