@@ -54,7 +54,7 @@ variable "function_env_vars" {
 
 variable "stage_name" {
   description = "Name of the single stage created for the API on API Gateway" # we're not using the deployment features of API Gateway, so a single static stage is fine
-  default     = "default"
+  default     = "initial"
 }
 
 variable "lambda_logging_enabled" {
